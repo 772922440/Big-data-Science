@@ -7,5 +7,5 @@ hadoop fs -copyFromLocal <your_file_name>
 hadoop jar /usr/jars/hadoop-examples.jar wordcount <your_file_name> <out_file_name>
 
 #### To local machine
-hadoop fs –copyToLocal <out_file_name>/part-r-00000 <local_file_name>
+hadoop fs –copyToLocal <out_file_name>/part-r-00000 <local_file_name> <br>
 more <local_file_name>
